@@ -232,13 +232,14 @@ aside {
 
 }
 
+
 @media only screen and (max-width: 915px) {
+
     div.box-container {
         flex-wrap: wrap;
         justify-content: center;
         margin: 0px;
         width: 100vw;
-        margin: 0px;
         padding: 0px;
     }
 
@@ -261,6 +262,10 @@ aside {
     ddiv#content {
 
         width: 100%;
+    }
+
+    .box-container .box .column-items {
+        margin-left: 15px;
     }
 
     main {
@@ -312,5 +317,12 @@ aside {
 
         overflow: auto;
         padding: 15px;
+    }
+}
+
+
+@media only screen and (min-width:739px) and (max-width:915px) {
+    .box-container .box {
+        margin-left: 15px;
     }
 }
